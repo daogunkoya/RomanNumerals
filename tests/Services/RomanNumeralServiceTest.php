@@ -113,12 +113,12 @@ class RomanNumeralServiceTest extends TestCase
     $this->assertEquals('C', $topConversions[0]->roman_numeral);
     $this->assertEquals(100, $topConversions[0]->integer_value);
     $this->assertEquals(3, $topConversions[0]->count);
-    // $this->assertEquals('L', $topConversions[1]->roman_numeral);
-    // $this->assertEquals(50, $topConversions[1]->integer_value);
-    // $this->assertEquals(1, $topConversions[1]->count);
-    // $this->assertEquals('X', $topConversions[2]->roman_numeral);
-    // $this->assertEquals(10, $topConversions[2]->integer_value);
-    // $this->assertEquals(2, $topConversions[2]->count);
+     $this->assertEquals('X', $topConversions[1]->roman_numeral);
+     $this->assertEquals(10, $topConversions[1]->integer_value);
+     $this->assertEquals(2, $topConversions[1]->count);
+     $this->assertEquals('L', $topConversions[2]->roman_numeral);
+     $this->assertEquals(50, $topConversions[2]->integer_value);
+     $this->assertEquals(1, $topConversions[2]->count);
 }
 
 
